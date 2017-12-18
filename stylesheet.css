@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    padding: 0px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif';
+}
+topnav{
+    overflow: hidden;
+    background-color: royalblue; 
+    padding-bottom: 200px;
+}
+topnav a{
+    float: left;
+    display: block;
+    color:black;
+    font-style: italic;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+topnav a:hover{
+    background-color: peachpuff;
+    color: rgb(71, 145, 77);
+}
+body {
+    background-color: whitesmoke;
+    padding-left: 50px;
+    padding-top: 120px;
+}
+h1 {
+    color: royalblue;
+    font-style: italic;
+}
+p {
+    color: crimson;
+}
+footer {
+    border-top-color: black;
+    border-top-style: dashed;
+    border-top-width: thin;
+    font-style: italic;
+}
