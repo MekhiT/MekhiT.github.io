@@ -1,12 +1,15 @@
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 header {
     padding: 0px;
     background-color: whitesmoke;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif';
+}
+h1{
+    margin-top: 0px;
 }
 topnav{
     overflow: hidden;
@@ -25,6 +28,10 @@ topnav a{
 topnav a:hover{
     background-color: peachpuff;
     color: rgb(71, 145, 77);
+}
+topnav a.active{
+    background-color: limegreen;
+    color: gainsboro;
 }
 body {
     background-color: whitesmoke;
