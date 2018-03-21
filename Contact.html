@@ -17,6 +17,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
     <!-- Custom styles for this template -->
     <link href="MyStylesheet.css" rel="stylesheet">
 
@@ -42,46 +44,54 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="About.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Contact.html">Contact</a>
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="#">Contact<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
-
-
     <div class="container">
-
+    <form action="https://getsimpleform.com/messages?form_api_token=8dbfae3b7678077bf5ee21ef9977ddb1" method="post">
+        <input type='hidden' name='redirect_to' value='mdthomasel.com/Contact.html' />
+            <div class="row">
+                <div class="col">
+              <input type="email" class="form-control"  placeholder="Enter email" name="_replyto">
+            </div>
+            <div class="col">
+              <input type="subject" class="form-control" placeholder="Subject/Topic"name="topic">
+            </div>
+            </div>
+            <div class="row">
+                <div class="col"> 
+                <input type="message" class="form-control form-control-lg" placeholder="Enter Message Here" name="message">
+                </div>
+            </div>
+            <div class="row">
+            <div class="col">
+            <button type="submit" class="btn btn-primary" value="Send">Submit</button>
+            </div>
+            </div>
+          </form>
+          </div>
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Welcome</h1>
-        <p>Hello, welcome to my personal website! This is the place I showcase all relevent past projects, inlcude extra info about myself and even an easy way to contact me.<p>
-        <p>To access all these different features of my website simply click the tabs across the tab!</p>
-        <p>
-          <!-- <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a> -->
-        </p>
-      </div>
-    </div> <!-- /container -->
+    <div class="container">
     <div class="card" id="contact">
-      <div class="card-body">
+      <div class="card-header">
         <h1>Contact</h1>
+      </div>
+      <div class="card-body">
         <p>Email: mdthomasel@gmail.com</p>
           <p>Cell phone:215-909-0436</p>
       </div>
-    </div>
-    <!-- </div> -->
-
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">Mekhi Thomas-El 2018 - Computer Engineering - UPJ</span>
       </div>
-    </footer>
+      </div>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
